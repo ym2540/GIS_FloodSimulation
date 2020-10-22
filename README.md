@@ -1,1 +1,1 @@
-# High Speed GIS based Flood Simulation
+# GIS-based Subdivision-Redistribution Simulation (GISSR)
