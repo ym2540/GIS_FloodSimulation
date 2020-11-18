@@ -1,7 +1,7 @@
 # GIS-based Subdivision-Redistribution Simulation (GISSR)
 
 
-### Table of Contents<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**1. Summary**](#1-Summary)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**2. Main Files and Jupyter Notebooks**](#2-Main Files)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**3. Data**](#3-Data Folder)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**4. Sample Results**](#4-Sample Results)<br><br>
+### Table of Contents<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**1. Summary**](#1-Summary)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**2. Main Files and Jupyter Notebooks**](#2-Main-Files)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**3. Data**](#3-Data-Folder)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**4. Sample Results**](#4-Sample-Results)<br><br>
 
 ## 1. Summary
 This flooding model of Lower Manhattan was developed after this area experienced extreme flooding and devastation from Hurricane Sandy in 2012. Using historical trends of hurricanes in the area, elevation data and surface roughness, these files generate the extent of following throughout Lower Manhattan (south of 34th Street). The model also considers the increasing severity of storms and flooding due to climate change and projected sea level rise by 2050 and 2100.
