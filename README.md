@@ -5,22 +5,22 @@
 ### Table of Contents<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**1. Summary**](#1-Summary)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**2. Main Files and Jupyter Notebooks**](#2-Main-Files)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**3. Data**](#3-Data-Folder)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**4. Sample Results**](#4-Sample-Results)<br><br>
 
 ## 1. Summary
-This flooding model of Lower Manhattan was developed after this area experienced extreme flooding and devastation from Hurricane Sandy in 2012. Using historical trends of hurricanes in the area, elevation data and surface roughness, these files generate the extent of following throughout Lower Manhattan (south of 34th Street). The model also considers the increasing severity of storms and flooding due to climate change and projected sea level rise by 2050 and 2100.
+This flooding model of Lower Manhattan was developed after this area experienced extreme flooding and devastation from Hurricane Sandy in 2012. Using historical trends of hurricanes in the area, elevation data and surface roughness, these files generate the extent of following throughout Lower Manhattan (south of 34th Street). The model also considers the increasing severity of storms and flooding due to climate change and projected sea level rise by 2050 and 2100. Code modelling the flooding of the subway system is avaiable upon request.
 
 
 ## 2. Main Files
 The order to run the data to generate flood heights is Surface Volume CSV Processor.ipynb, Flood_Estimate.ipynb, then Flood Height to Raster Processor.ipynb. All the data needed to run each notebook without running the previous notebooks are already included in the Data and Sample_Output folders..
-
+### Surface Volume Processor
 To preprocess data for the Flood_Estimate code, Surface Volume CSV Processor should be run first to generate the surface volume csv files.
 |     |     |
 | --- | --- |
 **Surface Volume CSV Processor.ipynb** | This code generates Surface Volume .csv files that are used in the Flood Estimate code, taking digital elevation model files (.TIFF) of the LMN’s division. The resulting .csv files contain the volume of water above the surface of the DEM at different heights in increments of 0.25m between 0-3m and in increments of 0.5m from 3.5-6.5m. Note, the user must have arcpy installed on their device for this code to run.
-
+### Flood Height Estimator
 The main code in this repository is Flood_Estimate.ipynb, which generates flood height csv files that can be used to calculate damage.
 |     |     |
 | --- | --- |
 **Flood_Estimate.ipynb** | This code produces flood heights for given storm parameters. The code calculates surface volume functions that can relate the volume of water to the flood height at a given division. Using Manning's equation, it takes topographic data and storm parameter data to find the velocity and subsequently the volume of the water. These flood volumes are then redistributed by propagating to the nearby divisions, and the final flood heights for each division are determined.
-
+### Raster Processor
 Finally, run Flood Height to Raster Processor to post process the flood heights and create a raster visualization of the flooding. 
 |     |     |
 | --- | --- |
