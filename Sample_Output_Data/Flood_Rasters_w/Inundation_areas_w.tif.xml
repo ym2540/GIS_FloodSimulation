@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20201116</CreaDate><CreaTime>09174400</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\MosaicToNewRaster" Date="20201116" Time="091744">MosaicToNewRaster IntermediateData\div_Rasters\storm_cold_div0.TIF Sample_Output_Data\Flood_Rasters_w Inundation_areas_w.tif # "8 bit unsigned" # 1 Last First</Process></lineage></DataProperties></Esri></metadata>
