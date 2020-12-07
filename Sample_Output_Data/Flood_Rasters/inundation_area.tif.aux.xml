@@ -1,7 +1,4 @@
 <PAMDataset>
-  <Metadata>
-    <MDI key="DataType">Generic</MDI>
-  </Metadata>
   <PAMRasterBand band="1">
     <Histograms>
       <HistItem>
@@ -10,19 +7,19 @@
         <BucketCount>2</BucketCount>
         <IncludeOutOfRange>1</IncludeOutOfRange>
         <Approximate>0</Approximate>
-        <HistCounts>16476|253</HistCounts>
+        <HistCounts>194597|4409</HistCounts>
       </HistItem>
     </Histograms>
     <Metadata>
-      <MDI key="RepresentationType">THEMATIC</MDI>
-      <MDI key="STATISTICS_COVARIANCES">0.01489561035986537</MDI>
+      <MDI key="RepresentationType">ATHEMATIC</MDI>
+      <MDI key="STATISTICS_COVARIANCES">0.02166437082503791</MDI>
       <MDI key="STATISTICS_EXCLUDEDVALUES"></MDI>
       <MDI key="STATISTICS_MAXIMUM">1</MDI>
-      <MDI key="STATISTICS_MEAN">0.015123438340606</MDI>
+      <MDI key="STATISTICS_MEAN">0.022155110901179</MDI>
       <MDI key="STATISTICS_MINIMUM">0</MDI>
       <MDI key="STATISTICS_SKIPFACTORX">1</MDI>
       <MDI key="STATISTICS_SKIPFACTORY">1</MDI>
-      <MDI key="STATISTICS_STDDEV">0.12204757416625</MDI>
+      <MDI key="STATISTICS_STDDEV">0.14718821564595</MDI>
     </Metadata>
   </PAMRasterBand>
 </PAMDataset>
