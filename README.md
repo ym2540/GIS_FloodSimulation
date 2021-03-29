@@ -54,4 +54,4 @@ This folder contains sample output files produced by running the notebooks in th
 
 ## 4. Processes Flowchart
 See the flowchart below for the inputs and outputs of the notebooks and flood calculation processes.
-![Storm-Page-1](https://user-images.githubusercontent.com/73183529/112877496-d3ecc080-9094-11eb-8a44-a6b7064507b8.jpg)
+![Storm-Copy of Copy of Page-1](https://user-images.githubusercontent.com/73183529/112877634-03033200-9095-11eb-831f-3562d6323854.jpg)
